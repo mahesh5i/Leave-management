@@ -1,0 +1,16 @@
+.loginform {
+    max-width: 100%;
+}
+.loginformforgot {
+    float: right;
+}
+.antcolrtl .loginformforgot {
+    float: left;
+}
+.loginformbutton {
+    width: 100%;
+}
+.loginformcenter {
+    display: flex;
+    justify-content: center;
+}

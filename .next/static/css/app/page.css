@@ -1,0 +1,19 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./assets/CSS/loginForm.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.loginForm_loginform__8wQy7 {
+    max-width: 100%;
+}
+.loginForm_loginformforgot__AItM_ {
+    float: right;
+}
+.loginForm_antcolrtl__zvqUe .loginForm_loginformforgot__AItM_ {
+    float: left;
+}
+.loginForm_loginformbutton__9TyWy {
+    width: 100%;
+}
+.loginForm_loginformcenter__A1goe {
+    display: flex;
+    justify-content: center;
+}
