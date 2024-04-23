@@ -17,11 +17,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/page.js"
     ],
-    "/employeeleaves/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/employeeleaves/page.js"
-    ],
     "/manageuser/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

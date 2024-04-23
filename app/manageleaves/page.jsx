@@ -48,6 +48,7 @@ const ManageLeaves = () => {
         headers:{
             "Content-Type":'application/json'
         },
+        cache: 'no-store', 
     })
     const {user} = await getusers.json();
     setShowloader(false)
@@ -67,6 +68,7 @@ const UpdateLeave=async(userdata,status)=>{
     headers:{
         "Content-Type":'application/json'
     },
+    cache: 'no-store', 
     body: JSON.stringify({email:userdata.email,statusdata:status})
 })
   const {user} = await getusers.json();

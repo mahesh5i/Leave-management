@@ -133,6 +133,7 @@ const showModal = () => {
             headers:{
                 "Content-Type":'application/json'
             },
+            cache: 'no-store', 
             body: JSON.stringify({email:values.email})
         })
 
@@ -148,6 +149,7 @@ const showModal = () => {
                 headers:{
                     "Content-Type":'application/json'
                 },
+                cache: 'no-store', 
                 body: JSON.stringify(values)
             })
             if(res.ok){
@@ -182,6 +184,7 @@ getAllUsers();
         headers:{
             "Content-Type":'application/json'
         },
+        cache: 'no-store', 
     })
     const {user} = await getusers.json();
     setShowloader(false)
@@ -205,6 +208,7 @@ getAllUsers();
       headers:{
           "Content-Type":'application/json'
       },
+      cache: 'no-store', 
       body: JSON.stringify({email:userdata.email,statusdata:statusupdate})
   })
     const {user} = await getusers.json();

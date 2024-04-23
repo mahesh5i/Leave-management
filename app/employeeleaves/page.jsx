@@ -99,6 +99,7 @@ const EmployeeLeave = () => {
       headers:{
           "Content-Type":'application/json'
       },
+      cache: 'no-store', 
       body: JSON.stringify({email:session?.user?.email,name:session?.user?.name,fromdate:fdate,todate:tdate,status:'not approved',reason:values.reason,role:'2'})
   })
 
@@ -132,6 +133,7 @@ const EmployeeLeave = () => {
         headers:{
             "Content-Type":'application/json'
         },
+        cache: 'no-store', 
         body: JSON.stringify({email:session?.user?.email})
     })
     const {user} = await getusers.json();
