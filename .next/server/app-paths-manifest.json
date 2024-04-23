@@ -1,13 +1,6 @@
 {
   "/page": "app/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/manageleaves/page": "app/manageleaves/page.js",
-  "/api/userExist/route": "app/api/userExist/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/getalluser/route": "app/api/getalluser/route.js",
-  "/api/getallleaves/route": "app/api/getallleaves/route.js",
-  "/api/updateleave/route": "app/api/updateleave/route.js",
-  "/api/updateuser/route": "app/api/updateuser/route.js",
   "/manageuser/page": "app/manageuser/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/manageleaves/page": "app/manageleaves/page.js"
 }
